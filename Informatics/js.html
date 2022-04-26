@@ -1,0 +1,55 @@
+<html>
+	<header> <title> JS 1 </title> 
+	<script>
+
+	function newFunction() {
+		document.getElementById("script1").innerHTML = "It worked!";
+		
+	}
+	function styleChange1() {
+		var x = document.getElementById("styleChange1");
+		x.style.fontSize = "25px";
+		x.style.color = "red";
+	
+	}
+	function styleChange2() {
+		var x = document.getElementById("styleChange2");
+		x.style.fontSize = "50px";
+		x.style.color = "purple";
+		x.style.backgroundColor = "yellow";
+	}
+	function homework1() {
+		document.getElementById("homework1").innerHTML = "Hi, my name is Gabe Whitehair. I am from Overland Park, KS. I like the Chiefs.";
+		
+	}
+	function homework2() {
+		var x = document.getElementById("homework2");
+		x.style.fontSize = "75px";
+		x.style.color = "red";
+		x.style.backgroundColor = "yellow";
+	}
+
+	</script>
+
+	</header>
+	<body>
+		<h1> JS 1 </h1>
+		<p id ="script1"> This is my first JavaScript </p>
+		<button type="button" onclick="newFunction()"> Click here! </button>
+		
+		<h1> JavaScript + CSS </h1>
+		<p id ="styleChange1"> JavaScript can change the style of the text too! </p>
+		<button type="button" onclick="styleChange1()"> Click me! </button>
+	
+		<h2> Trying it one more time! </h2>
+		<p id="styleChange2"> We are going to try this again </p>
+		<button type="button" onclick="styleChange2()"> Click Again </button>
+		
+		<h2> JavaScript Homework </h2>
+		<p id = "homework1"> Hi, my name is John Doe. I am from Indianapolis, IN. I like the Colts. </p>
+		<button type="button" onclick="homework1()"> Real Paragraph </button>
+		<p id = "homework2"> Hi, this is a style changing button. It's going to change the color and size of this to Chiefs colors. Go Chiefs! </p>
+		<button type="button" onclick="homework2()"> Chiefs Colors </button>
+	
+	</body>
+</html>

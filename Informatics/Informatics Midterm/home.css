@@ -1,0 +1,58 @@
+.container {
+	border: 1px solid black;
+}
+.row {
+	border: 1px solid purple;
+
+}
+}
+.columns {
+	border: 1px solid green;
+}
+.name {
+
+	color: purple;
+	text-align: center;
+
+}
+.text {
+	color: purple;
+}
+
+.col1 {
+	border-style: double;
+	border-width: 2px;
+	border-color: green;
+}
+.col2 {
+	border-style: double;
+	border-width: 2px;
+	border-color: purple;
+	color: purple;
+}
+.col3 {
+	border-style: double;
+	border-width: 2px;
+	border-color: purple;
+	color: purple;
+	text-align: center;
+}
+.col5 {
+	border-style: double;
+	border-width: 2px;
+	border-color: purple;
+	color: black;
+	text-align: center;
+}
+a:link {
+	color: purple
+}
+a:visited {
+	color: purple
+}
+a:hover {
+	color: orange
+}
+a:active {
+	color: green
+}

@@ -1,0 +1,59 @@
+.container {
+	border: 1px solid purple;
+}
+.row {
+	border: 1px solid red;
+}
+}
+.columns {
+	border: 1px solid green;
+}
+.col1 {
+	border-style: double;
+	border-width: 2px;
+	border-color: green;
+	padding: 10px 20px 30px 10px;
+	background-color: red;
+	color: white; 
+	font-family: "Times New Roman", Times, serif;
+
+}
+.col2 {
+	border-style: dashed;
+	border-width: 7px;
+	border-color: purple;
+	padding: 10px 10px 30px 20px;
+	background-color: blue;
+	color: yellow;
+	font-family: Palatino, serif;
+
+}
+.col3 {
+	border-style: double;
+	border-width: 5px;
+	border-color: purple;
+	padding: 20px 20px 30px 20px;
+	background-color:green;
+	color: white;
+	font-family: Bookman, serif;
+
+}
+.col4 {
+	border-style: dashed;
+	border-width: 9px;
+	border-color: green;
+	padding: 10px 20px 10px 20px;
+	background-image: url("http://pages.iu.edu/~gmwhiteh/images/paper.jpg");
+	color: orange;
+	font-family: "New Century Schoolbook", serif;
+}
+.chiefsyellow{
+	color: yellow;
+}
+.ninersred{
+	color: red;
+}
+.big-margin {
+	margin: 0.01in 0.02in 0.01in 0.01in;
+}
+

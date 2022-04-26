@@ -1,0 +1,54 @@
+.container {
+	border: 1px solid black;
+}
+.row {
+	border: 1px solid black;
+
+}
+}
+.columns {
+	border: 1px solid black;
+}
+.name {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: black;
+	text-align: center;
+
+}
+.text {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: black;
+}
+
+.col1 {
+	border-style: double;
+	border-width: 2px;
+	border-color: black;
+}
+.col2 {
+	border-style: double;
+	border-width: 2px;
+	border-color: black;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: black;
+}
+.col3 {
+	border-style: double;
+	border-width: 2px;
+	border-color: black;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: black;
+	text-align: center;
+}
+a:link {
+	color: black
+}
+a:visited {
+	color: black
+}
+a:hover {
+	color: black
+}
+a:active {
+	color: black
+}

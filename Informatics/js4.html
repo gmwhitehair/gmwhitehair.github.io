@@ -1,0 +1,83 @@
+<html>
+	<head> <title> JS 4 </title> 
+		<script> 
+			// rock = 1
+			// paper = 2
+			// scissors = 3
+			function rock_choice()
+			{
+				var number = Math.floor(Math.random()*3 + 1);
+				var test = document.getElementById("test");
+				if (number == 1)
+				{
+					test.innerHTML = "<h1> YOU: </h1> <img src = 'images/rock.jpg'/> <h1> COMPUTER: </h1> <img src = 'images/rock.jpg'/> <h1> Tie </h1> ";
+				} 
+				else if (number == 2)
+				{
+					test.innerHTML = "<h1> YOU: </h1> <img src = 'images/rock.jpg'/> <h1> COMPUTER: </h1> <img src = 'images/paper.jpg'/> <h1> You Lost </h1> ";
+				}
+				else 
+				{
+					test.innerHTML = "<h1> YOU: </h1> <img src = 'images/rock.jpg'/> <h1> COMPUTER: </h1> <img src = 'images/scissors.jpg'/> <h1> You Win </h1> ";
+
+				}
+			}
+			function paper_choice()
+			{
+				var number = Math.floor(Math.random()*3 + 1);
+				var test = document.getElementById("test");
+				if (number == 1)
+				{
+					test.innerHTML = "<h1> YOU: </h1> <img src = 'images/paper.jpg'/> <h1> COMPUTER: </h1> <img src = 'images/rock.jpg'/> <h1> You win </h1> ";
+				} 
+				else if (number == 2)
+				{
+					test.innerHTML = "<h1> YOU: </h1> <img src = 'images/paper.jpg'/> <h1> COMPUTER: </h1> <img src = 'images/paper.jpg'/> <h1> Tie</h1> ";
+				}
+				else 
+				{
+					test.innerHTML = "<h1> YOU: </h1> <img src = 'images/paper.jpg'/> <h1> COMPUTER: </h1> <img src = 'images/scissors.jpg'/> <h1> You lost </h1> ";
+
+				}
+			}
+			function scissors_choice()
+			{
+				var number = Math.floor(Math.random()*3 + 1);
+				var test = document.getElementById("test");
+				if (number == 1)
+				{
+					test.innerHTML = "<h1> YOU: </h1> <img src = 'images/scissors.jpg'/> <h1> COMPUTER: </h1> <img src = 'images/rock.jpg'/> <h1> You lost </h1> ";
+				} 
+				else if (number == 2)
+				{
+					test.innerHTML = "<h1> YOU: </h1> <img src = 'images/scissors.jpg'/> <h1> COMPUTER: </h1> <img src = 'images/paper.jpg'/> <h1> You win </h1> ";
+				}
+				else 
+				{
+					test.innerHTML = "<h1> YOU: </h1> <img src = 'images/scissors.jpg'/> <h1> COMPUTER: </h1> <img src = 'images/scissors.jpg'/> <h1> Tie </h1> ";
+
+				}
+			}
+			
+			
+		</script>
+		
+	</head>
+	<body>
+	
+		<h1> JavaScript 4 - Rock, Paper, Scissors Game</h1>
+		<input type="image" src="images/rock.jpg" onclick="rock_choice()" />
+		<input type="image" src="images/paper.jpg" onclick="paper_choice()" />
+		<input type="image" src="images/scissors.jpg" onclick="scissors_choice()" />
+		<p id = "test"> </p>
+	
+	<hr>
+	<ul>
+		<li> By breaking our code into smaller parts it makes our code easier to work with and easier to find problems within. Also, we can copy and paste certain parts of the code if they are similar like in the Rock, Papers, Scissors code. </li>
+		<li> We constantly check and test our code to check for errors. If we continue writing code with those errors and mistakes, it is going to be hard to diagnose and fix the problem when we are finished writing the code. It will be even worse if we are copying that code with the errors. Also, if we test the code, we can easily diagnose where the error is located. </li>
+		<li> To make this game usable for 2 players instead of 1 player vs 1 computer, you would need to assign a variable to player one once they choose their object and then a variable for the player two when they choose their object. You can do this using the <q>onclick</q> and <q>function</q> code in HTML and JavaScript. The variables would be: Rock = 1, Paper = 2, Scissors = 3. Once you have a variable assigned, you can use (if p1 == 1 && p2 == 1){Message displaying who won and who lost with pictures.}. Then you could repeat that code changing the images and who wins like in our original code. That is how you would have a PvP game. </li>
+	</ul>
+	
+	</body>
+
+</html>

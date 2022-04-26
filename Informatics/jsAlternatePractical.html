@@ -1,0 +1,176 @@
+<!--***********************************************
+Upload to Canvas, NOT WinSCP/Cyberduck/Pages Server
+************************************************-->
+<html>
+	<head>
+		<title>JavaScript Alternate Practical</title>
+		
+	</head>
+	<body>
+		<style>
+			html {box-sizing: border-box;}
+			*, *:before, *:after {box-sizing: inherit;}
+			body {background: linear-gradient(180deg, rgba(102,102,102,1) 0%, rgba(34,34,34,1) 100%); margin:0;}
+			div {padding: 8px 16px;}
+			div:not(.student){border-top: black 2px dashed; margin-top: 10px;}
+			div.student {background: #CCC; margin: 0 -16px; padding: 16px; border-radius:10px;}
+			div#container {border-radius:10px; border-top: none; width:880px; margin: 16px auto 7em; background: #FFF;padding: 20px 20px; box-shadow: 0 0 20px black;}
+			img {border-radius:100%; height:300px; box-shadow: 0 0 15px #666; opacity:95%; display: block; margin: 0 auto;}
+			h1 {text-shadow: 0 2px 2px #666;}
+			h2 {font-family:sans-serif;font-size: 1.75em;text-align: center;}
+			h4 {margin-top: 0px;}
+			button {border: none; box-shadow: 0 0 7px #666; padding: 4px 8px; border-radius: 7.5px;}
+			p {transition: all .2s;}
+			button, img {transition: all .15s;}
+			button:focus{outline:0;}
+			button:hover {background: #900; box-shadow: 0 0 7px black; color:white;}
+			img:hover {opacity:100%;box-shadow: 0 0 15px #333;}
+			button:active {box-shadow: inset 0 0 10px black; opacity: 100%; color:lightgray;}
+			img:active {box-shadow: 0 0 15px black;}
+			div#certify {position:fixed; bottom:0; left:0; background-color:#990000; text-align:center; width:100%; z-index:100; border-top:none; box-shadow: 0 0 10px black; font-size:.8em; color:#EDEBEB; font-style:italic;}
+		</style>
+		<div id="certify">
+			<p>I certify that this assignment was created on my own with only the assistance of my previous work/notes. I did not get help from other students nor did I provide assistance to other students.</p>
+			<p> Gabe Whitehair</p>
+		</div>
+		<div id="container">
+			<center><h1>JavaScript Alternate Practical</h1></center>
+			<center><p>Complete each of the questions/exercises below</p></center>
+			<div class="question">
+				<h2>Short Answer 1</h2>
+				<h4>Prompt</h4>
+				<p>Explain what '<em>Math.floor(Math.random()*3+1)</em>' does in the JavaScript when we added it to our Rock,Paper,Scissors game. What did it allow us to do?</p>
+				<div class="student">
+					<h4>Response</h4>
+					<p> In my rock paper scissors game we assigned 1 to paper, 2 to rock, and 3 to scissors. The (Math.random()*3+1) gives us a number from 1 to 4, inclusive of 1, exclusive of 4. Then that Math.floor function rounds that number down to 1, 2, or 3 so we can assign it to rock, paper, or scissors.  </p>
+				</div>
+			</div>
+			<div class="question">
+				<h2>Short Answer 2</h2>
+				<h4>Prompt</h4>
+				<p>Explain what '<em>getElementById</em>' does in the JavaScript language.</p>
+				<div class="student">
+					<h4>Response</h4>
+					<p> In Javascript, the getElementById function represents an element to be changed and the Id is where to look for it. For example, in JS1 we changed text using the getElementById function. The Id was down in the body of the HTML and told the code what needed to be changed by using id = <q>styleChange</q>. The actual changes like style.color = <q>purple</q>; were up in the function area. We used getElementById in every function on this test. </p>
+				</div>
+			</div>
+			<div class="question">
+				<h2>Short Answer 3</h2>
+				<h4>Prompt</h4>
+				<p>Explain what '<em>innerHTML</em>' does in the JavaScript language.</p>
+				<div class="student">
+					<h4>Response</h4>
+					<p>innerHTML returns the HTML content of an element. We used innerHTML in our fourth function on this test to output either Rejected or Accepted. innerHTML also allows us to not refresh the page and allows us to immediately change something in the code.</p>
+				</div>
+			</div>
+			<div class="question">
+				<h2>Short Answer 4</h2>
+				<h4>Prompt</h4>
+				<p>Explain what '<em>match</em>' does in the JavaScript language.</p>
+				<div class="student">
+					<h4>Response</h4>
+					<p> In JavaScript language, match allows us to check if the object is the same as what is in the argument. For example, we used the match function on function three on this test to see if the current picture matched the picture of the cat. If it matched it changed to dog. It if didn't match it changed to cat. </p>
+				</div>
+			</div>
+			<div class="question">
+				<h2>Coding Exercise 1</h2>
+				<h4>Prompt</h4>
+				<p>Complete the JavaScript code to fulfill the following functionality: </p>
+				<ul>
+					<li>Clicking the button changes the text to say "This is easy!"</li>
+				</ul>
+				<div class="student">
+					<h4>HTML</h4>
+					<p id="firstP">This text is going to change</p>
+					<button onclick="firstFunction()" type="button">Press Me</button>
+					<script>
+						function firstFunction() {
+							document.getElementById("firstP").innerHTML = "This is easy!";
+						}
+					</script>
+				</div>
+			</div>
+			<div class="question">
+				<h2>Coding Exercise 2</h2>
+				<h4>Prompt</h4>
+				<p>Complete the JavaScript code to fulfill the following functionality: </p>
+				<ul>
+					<li>Clicking the button changes:
+					<ul>
+						<li>the size of the font to 32px</li>
+						<li>the color of the font to red</li>
+					</ul>
+				</ul>
+				<div class="student">
+					<h4>HTML</h4>
+					<p id="secondP">This text is going to look different</p>
+					<button onclick="secondFunction()" type="button">Press Me</button>
+					<script>
+						function secondFunction() {
+							var x = document.getElementById("secondP");
+							x.style.fontSize = "32px";
+							x.style.color = "red";
+						}
+					</script>
+				</div>
+			</div>
+			<div class="question">
+				<h2>Coding Exercise 3</h2>
+				<h4>Prompt</h4>
+				<p>Complete the JavaScript code to fulfill the following functionality: </p>
+				<ul>
+					<li>Clicking the cat should switch the image to the dog</li>
+					<li>Clicking the dog should switch the image to the cat</li>
+					<li>Will alternate between cat/dog on every click</li>
+				</ul>
+				<div class="student">
+					<h4>HTML</h4>
+					<p>This image is going to change</p>
+					<img id="animals" onclick="thirdFunction()" src="images/cat.jpg" height = "300px" />
+					<script>
+						function thirdFunction() {
+							var image = document.getElementById('animals');
+							if (image.src.match("cat")) {
+							image.src = "images/dog.jpg";
+							}else {
+							image.src = "images/cat.jpg";
+							}
+						}
+					</script>
+				</div>
+			</div>
+			<div class="question">
+				<h2>Coding Exercise 4</h2>
+				<h4>Prompt</h4>
+				<p>Complete the JavaScript code to fulfill the following functionality: </p>
+				<ul>
+					<li>Text will appear below the input depending on what the user enters</li>
+					<ul>
+						<li>If the user inputs a number between 12 and 54, the text will be "Accepted"</li>
+						<li>If the user inputs a value outside of the accepted range, the text will be "Rejected"</li>
+					</ul>
+				</ul>
+				<div class="student">
+					<h4>HTML</h4>
+					<p>Enter a number between 12 and 54</p>
+					<input id="answer" type="number"/>
+					<button onclick="fourthFunction()" type="button">Press Me</button>
+					<p id="response"></p>
+					<script>
+						function fourthFunction() {
+							var x, text;
+							x = document.getElementById("answer").value;
+							if (isNaN(x) || x < 12 || x > 54){
+								text = "Rejected";
+							}else{
+								text = "Accepted";
+							}
+							document.getElementById("response").innerHTML = text;
+				
+						}
+					</script>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,50 @@
+<html>
+	<header> 
+	<title> JS 2 </title> 
+		<script>
+
+			function changeImage() {
+				var image = document.getElementById('myImage');
+				if (image.src.match("bulbon")) {
+					image.src = "images/bulboff.png";
+				}else {
+					image.src = "images/bulbon.png";
+				}
+			
+			
+			}
+			function checkNumber() {
+				var x, text;
+				x = document.getElementById("num").value;
+				
+				if (isNaN(x) || x < 1 || x > 10){
+					text = "Input not valid";
+				}else{
+					text = "Input accepted";
+					changeImage();
+				}
+				document.getElementById("script1").innerHTML = text;
+				
+			}
+			
+		</script>
+	</header>
+
+	<body>
+
+		<h1> JavaScript 2 </h1>
+		<img id ="myImage" onclick ="changeImage()" src="images/bulboff.png"/>
+		<p> Click the lightbulb to turn it on or off </p>
+		<p> Please input a number between 1 and 10: </p>
+		<input id ="num" type="number">
+		<button type="button" onclick="checkNumber()"> Sumbit </button>
+		<p id ="script1"> </p>
+		
+		<h2> JavaScript Questions </h2>
+		<ul>
+			<li> An instance where an if/else statement is useful can be seen in this very program. If the light bulb is off, we want to turn it on. If it is on, we want to turn it off. We can use an if/else statement to check whether the bulf is off or on and then change is appropriately </li>
+			<li> If the original image is not either of the bulbs, when you click on the image or enter a number from 1-10 the code is automatically going to operate the "else" statement. So, the image would change to "bulbon". It is going to operate on the else statement because the image is not "bulbon".
+		
+	</body>
+
+</html>

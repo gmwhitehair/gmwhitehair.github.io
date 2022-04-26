@@ -1,0 +1,39 @@
+<html>
+	<head> 
+		<title> JS 3 </title> 
+		<script>
+			function count_it(){
+				var max_num = document.getElementById("max_number").value;
+				var numbers = "";
+				for(var i = 1; i <= max_num; i++)
+				{
+					if((i % 2) == 0){
+					numbers += String(i) + "<br>";
+					}
+					else{
+					numbers += String(i) + " ";
+					}
+				}
+				document.getElementById("counter").innerHTML = numbers;
+			}
+			
+		</script>
+	</head>
+	<body>
+	
+		<h1> JavaScript 3 </h1>
+		<input type="text" id="max_number"/>
+		<input type="button" value="Count!" onclick="count_it()"/>
+		
+		<br>
+		<span id ="counter">  </span>
+			
+		<h2> JavaScript Questions </h2>
+		<ul>
+			<li> The difference between n = 1 + 2 and n = "1" + "2" is that in n = 1 + 2 the output will be 3 because you are adding two numbers. In n = "1" + "2" the output will be 12 because you are adding two strings. </li>
+			<li> The += sign allows us to add to a previously declared variable so we don't have to write a statement with a variable like varExample = varExample + i;. With the += sign we can just add i to the variable, varExample += i; and the varExample will add i too it. </li>
+			<li> In our code, we used getElementById to grab the id in the body of our code. For example in this code, our id was max_number and we used document.getElementById("max_number") to grab it. </li>
+
+	</body>
+	
+</html>

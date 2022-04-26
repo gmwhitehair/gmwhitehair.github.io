@@ -1,0 +1,23 @@
+table, th, td {
+	border-width: thin;
+	border-color: black;
+	border-style: solid;
+}
+
+.tableRed {
+	background-color: orange;
+	color:red;
+}
+
+.SecondColumn {
+	background-color:blue
+}
+.ThirdColumn {
+	background-color:pink
+}
+.FourthColumn {
+	background-color:black
+}
+.FifthColumn {
+	 background-color:purple
+}
