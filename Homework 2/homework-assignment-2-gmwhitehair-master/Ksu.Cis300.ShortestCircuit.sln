@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ksu.Cis300.ShortestCircuit", "Ksu.Cis300.ShortestCircuit\Ksu.Cis300.ShortestCircuit.csproj", "{E38F991B-4CC6-4DDD-A1E3-EF3ACCC25517}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ksu.Cis300.ShortestCircuit.Tests", "Ksu.Cis300.ShortestCircuit.Tests\Ksu.Cis300.ShortestCircuit.Tests.csproj", "{7DD4E0C7-864F-4938-B570-70F69EF099B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E38F991B-4CC6-4DDD-A1E3-EF3ACCC25517}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E38F991B-4CC6-4DDD-A1E3-EF3ACCC25517}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E38F991B-4CC6-4DDD-A1E3-EF3ACCC25517}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E38F991B-4CC6-4DDD-A1E3-EF3ACCC25517}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DD4E0C7-864F-4938-B570-70F69EF099B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DD4E0C7-864F-4938-B570-70F69EF099B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DD4E0C7-864F-4938-B570-70F69EF099B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DD4E0C7-864F-4938-B570-70F69EF099B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {981AD025-0DA9-4BB4-8DCC-BC2BC51B6EF4}
+	EndGlobalSection
+EndGlobal

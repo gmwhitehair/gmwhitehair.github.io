@@ -20,6 +20,11 @@
 	color: white;
 	text-indent: 30px;
 }
+.paragraph3{
+	font-size: 19px;
+	color: #4CAF50;
+	text-indent: 30px;
+}
 .row{
 border: 1px solid #4CAF50;
 }

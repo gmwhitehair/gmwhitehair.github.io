@@ -1,108 +1,63 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
 <head>
   <meta charset="utf-8">
   <title>Gabriel's Personal Site</title>
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="Favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="Favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="Favicon/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
 </head>
-
 <body>
   <table cellspacing="20">
     <tr>
       <td> <img src="CircularProfilePic-removebg-preview.png" alt="Gabe Pic" style="height:170px;width:170px;"></td>
       <td>
-        <h1 id="tryAgain"> Gabriel Whitehair </h1>
-        <p class="CS"><em>Computer Science Student at <strong><a href=" https://www.cs.ksu.edu/">Kansas State University</a></strong></em></p>
-        <!-- em is emphasis, better than i tag -->
-        <!-- strong is bold, better than b tag -->
-        <p>I am a current Computer Science Student Student at Kansas State University
-          with an anticipated graduation date of May 2024.
-        </p>
-        <p><a href="contact.html">Contact Info</a></p>
+        <h1> Gabriel Whitehair </h1>
+        <p class="intro"><em>Computer Science Student at <a href=" https://www.cs.ksu.edu/">Kansas State University</a> Class of '24</em></p>
+        <p class="intro"><a href="https://www.linkedin.com/in/gabrielwhitehair/">LinkedIn</a></p>
       </td>
     </tr>
   </table>
-  <hr>
-  <h3>Experience</h3>
-  <ul>
-    <li>Kansas State IT Help Desk
-      <br> <em>Consultant</em>
-      <br> - Conducting troubleshooting to resolve IT-related and application issues for K-State students, staff, and stakeholders.
-      <br> - Consistently demonstrating competence in resolving complex user and system issues in a proactive and efficient manner.
-    </li>
+  <h2>Resume:</h2>
+  <iframe id='resume' src="Whitehair, Gabriel Resume - Copy.pdf" height="1150" width="900"></iframe>
+  <h2>Transcript:</h2>
+  <iframe id='resume' src="39074701_eTranscript(CurrentStudents).pdf" height="750" width="900"></iframe>
+  <h2>Relevant Courses:</h2>
+    <ul class="skills">
+      <li>Data Structures and Algorithms (C#)</li>
+      <li>Programming Fundamentals (Java)</li>
+      <li>Intro to Computer Engineering (C)</li>
+      <li>Intro to Computing Science (Python)</li>
+    </ul>
+  <h2>Programming Skills:</h2>
+    <p class=skills>C#, Java, Python, C, HTML/CSS, JavaScript, Nodejs, Github, Visual Studio</p>
+  <h2>Projects:</h2>
+  <li class="skills"><b>Text Analysis (C#):</b> Performs text analysis on large txt files to search for word frequencies and differences between other txt files. Uses leftist trees, min priority queues, and frequency tables. <a href="https://github.com/gmwhitehair/TextAnalysis">Github↗</a> <a href="HWPictures/TextAnalysisInstructions.pdf">Instructions↗</a>
     <br>
-    <li>North Italia Restaurant Leawood, KS
-      <br><em>Server</em>
-      <br> - Delivered exceptional, friend ly, and timely service in a fast-paced, complex environment.
-      <br> - Answered questions about sophisticated Italian menu and made precise recommendations when requested.
-    </li>
+    <img src="HWPictures/HW4_1.png">
+    <img src="HWPictures/HW4_2.png" height="535px;">
+  </li>
+  <li class="skills"><b>Checkers AI (C#):</b> Plays a checkers game against an AI at level from 1 (easy) to 12 (impossible). Uses Binary Trees and Alpha-Beta Pruning.  <a href="https://github.com/gmwhitehair/CheckersAI">Github↗</a> <a href="HWPictures/CheckersAI.pdf">Instructions↗</a>
     <br>
-    <li> Overland Park Garden Tilling
-      <br><em>Owner</em>
-      <br>- Invested in garden tilling equipment in 2017. Expanded business over the next 4 years and multiplied investment 10 times over in revenue. Cared for over 50 gardens during spring and summer of 2020.
-      <br>- Managed payroll, marketing, customer contact, and every other vital decision for success of the venture.
-    </li>
-  </ul>
-  <hr>
-  <h3><a href="hobbies.html">Hobbies</a></h3>
-  <ol>
-    <li>Working out</li>
-    <li>Hunting</li>
-    <li>K-State Sports</li>
-  </ol>
-  <hr>
-  <table border="1px">
-    <thead>
-      <tr>
-        <th>Dates</th>
-        <th>Work</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Fall 2021</td>
-        <td>K-State IT Help Desk</td>
-      </tr>
-      <tr>
-        <td>Summer 2021</td>
-        <td>North Italia</td>
-      </tr>
-    </tbody>
-  </table>
-  <hr>
-  <h3>Skills</h3>
-  <!-- tr is a row, td is a column -->
-  <table cellspacing="2">
-    <tr>
-
-      <td>
-        <table>
-          <tr>
-            <td>Service Now</td>
-            <td>🟣🟣🟣🟣</td>
-          </tr>
-          <tr>
-            <td>JAVA</td>
-            <td>🟣🟣🟣</td>
-          </tr>
-        </table>
-      </td>
-      <td>
-        <table>
-          <tr>
-            <td>Python</td>
-            <td>🟣🟣🟣</td>
-          </tr>
-          <tr>
-            <td>HTML/CSS</td>
-            <td>🟣</td>
-          </tr>
-        </table </td>
-    <tr>
-
-    </tr>
-  </table>
+    <img src="HWPictures/HW3.png">
+  </li>
+  <li class="skills"><b>Shortest Circuit (C#):</b> Calculates the shortest path from a matrix of at most 12 points. Uses doubly linked lists, queues, and stacks. <a href="https://github.com/gmwhitehair/ShortestCircuit">Github↗</a>
+    <br>
+    <img src="HWPictures/HW2_1.png" height="421px;">
+    <img src="HWPictures/HW2_2.png">
+  </li>
+  <li class="skills"><b>Arduino LCD Thermostat (C)</b>Soldered and wired LCD and thermostat to Arduino. Sets a temperature and heats or cools based temperature reading. Sets LCD to color based on heating/cooling state.
+    <br>
+    <img class='arduino' src="HWPictures/arduino cool.jpg">
+    <img class='arduino'src="HWPictures/arduino good.jpg">
+    <img class='arduino'src="HWPictures/arduino heat.jpg">
+  </li>
+  <li class="skills"><b>Garden Tilling Problem (HTML, CSS, Javascript):</b> Website for high school garden tilling business. Demonstrates basic proficiency in HTML, CSS, and Javascript. <a href="Informatics/final/i101project.html">Website↗</a>
+    <br>
+    <img src="HWPictures/Garden.png">
+  </li>
 </body>
 
 </html>
